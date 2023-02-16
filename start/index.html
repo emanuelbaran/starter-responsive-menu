@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation flex">
+        <img class="logo" src="./assets/logo.png" alt="" />
+
+        <button 
+          class="mobile-nav__toggle"
+          aria-controls="primaryNav" 
+          aria-expanded="false">
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <ul 
+          id="primaryNav" 
+          class="main__navigation flex spaced"
+          data-visible="false">
+          <li class="navigation__item active">
+            <a href="#"> Our mission</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Our vision</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Our values</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Pricing</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
